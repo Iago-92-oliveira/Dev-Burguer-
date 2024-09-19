@@ -1,0 +1,25 @@
+{
+  "name": "dev-burguer",
+  "version": "1.0.0",
+  "description": "DevBurguer API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Iago Oliveira (https://github.com/Iago-92-oliveira)",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2",
+    "sucrase": "^3.35.0"
+  }
+}
